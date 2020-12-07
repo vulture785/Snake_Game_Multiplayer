@@ -1,0 +1,20 @@
+{
+  "name": "node.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Snake.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon server.js -e js,html,css,json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-ws": "^4.0.0",
+    "howler": "^2.2.1",
+    "nodemon": "^2.0.6",
+    "reload": "^3.1.1"
+  },
+  "type": "module"
+}

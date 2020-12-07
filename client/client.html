@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <title>My Website</title>
+
+        <link rel="stylesheet" href="client.css">
+                
+    </head>
+    <body style="background-color: darkgray;">
+        <h1>Snake in Node.Js</h1>
+
+        <h2>Do you want to play a snake ?</h2>
+
+        <form method="POST" action="client.html">
+            <!--<label for="Tagname">Snake name : </label>
+            <input type="text" id="Tagname" required><br>-->
+        
+            <label for="color">Snake Color : </label>
+            <input type="color" id="color" value="#000000"><br><br>
+
+            <input type="button" id="LetsGo" value="Let's GO !!!", onclick="lancerPartie()">
+        </form>
+
+        <canvas name="Canvas" width="960" height="540" tabindex="0"></canvas>
+
+        <script src="/reload/reload.js"></script>
+        <script src="client.js"></script>
+    </body>
+</html>
